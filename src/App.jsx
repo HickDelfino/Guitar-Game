@@ -170,7 +170,7 @@ export default function GuitarNoteGame() {
             setTarget(getRandomPosition(activeStrings, newFretboard, newValue));
           }}
         >
-          {includeSharps ? 'Com Sustenidos' : 'Sem Sustenidos'}
+          {includeSharps ? ' # Com Sustenidos' : '# Sem Sustenidos'}
         </button>
         
         <button style={buttonStyle} onClick={peekNotes}>Espiar Notas</button>
